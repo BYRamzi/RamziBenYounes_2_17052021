@@ -1,0 +1,109 @@
+/* Définition des polices */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('fonts/Raleway/Raleway-VariableFont_wght.ttf');
+ }
+
+/* Éléments principaux de la page */
+
+body
+{
+    font-family: 'Raleway', Arial, sans-serif;
+    color: black;
+}
+
+#bloc_page
+{
+	width: 900px
+	margin: auto;
+}
+
+header h1, section h1
+{
+	font-family: 'Raleway', serif;
+	font-weight: bold;
+	font-size: 16px
+}
+
+/* Header */
+
+#en_tete
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#logo img
+{
+    width: 70px;
+    height: 32px;
+    padding-bottom: 3px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 60px;
+}
+
+nav a
+{
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+	border-top: 1px solid #0065FC;
+	padding-top: 20px;
+}
+
+p
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.search_button
+{
+	border: 1px solid #F2F2F2;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+.search_button2
+{
+	border: 1px solid #0065FC;
+	padding: 8px 8px 8px 8px;
+	color: white;
+	font-family: 'Raleway';
+	font-weight: bold;
+	background-color: #0065FC;
+	border-radius: 0px 5px 5px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
