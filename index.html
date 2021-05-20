@@ -9,6 +9,9 @@
 
 <body>
 	<div id="bloc_page">
+
+		<!--HEADER-->
+
 		<header>
 			<div id="en_tete">
 				<div id="logo">
@@ -19,7 +22,7 @@
 					<ul>
 						<li><a href="#hebergements">Hébergements</a></li>
 						<li><a href="#activites">Activités</a></li>
-						<li><a href="#">S'inscrire</a></li>
+						<li><a href="#"><strong>S'inscrire</strong></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -27,23 +30,37 @@
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
 
+
+			<!--Barre de recherche-->
+
+
 			<div id="search">
-				<i class="fas fa-map-marker-alt"></i>
-				<input class="search_button" type="search" name="recherche" value="Marseille, France">
-				<input class="search_button2" type="submit" name="recherchez" value="Rechercher">
+				<span class="mapmarker"><i class="fas fa-map-marker-alt"></i></span>
+				<input class="searchfield" type="search" name="recherche" value="Marseille, France">
+				<input class="searchbutton" type="submit" name="recherchez" value="Rechercher">
 			</div>
+
+
+			<!--Filtres-->
+
 
 			<div id="filter">
 				<h2>Filtres</h2>
 				<ul>
-					<li><i class="fas fa-money-bill-wave-alt"></i>Économique</li>
-					<li><i class="fas fa-child"></i>Familial</li>
-					<li><i class="fas fa-heart"></i>Romantique</li>
-					<li><i class="fas fa-dog"></i>Animaux autorisés</li>
+					<li><span class="iconfilter"><i class="fas fa-money-bill-wave-alt"></i></span>Économique</li>
+					<li><span class="iconfilter"><i class="fas fa-child"></i></span>Familial</li>
+					<li><span class="iconfilter"><i class="fas fa-heart"></i></span>Romantique</li>
+					<li><span class="iconfilter"><i class="fas fa-dog"></i></span>Animaux autorisés</li>
 				</ul>	
 			</div>
 
-			<p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+
+			<!--Information-->
+
+
+			<p><span class="iconinfo"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville
+			</p>
+
 		</header>
 	</div>
 </body>
