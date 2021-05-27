@@ -65,11 +65,6 @@ section
     
 }
 
-.stars
-{
-    margin: 0px;
-}
-
 .stars i
 {
     font-size: 10px;
@@ -101,14 +96,13 @@ aside h1
 {
     display: flex;
     justify-content: space-between;
+    padding: 0px 19px 0px 19px;
 }
 
 .fas fa-chart-line
 {
-    display: inline-block;
     font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
+
 }
 
 #most_popular_list
@@ -135,18 +129,18 @@ aside h1
 .most_popular_description img
 {
     width: 35%;
-    height: 95%;
-    margin: 1.5%;
-    border-radius: 20px 0px 0px 20px;
+    margin: 4px;
+    border-radius: 19px 0px 0px 19px;
     object-fit: cover;  
+}
+
+.most_popular_text 
+{
+    padding: 15px 10px 10px 10px; 
+    width: 40%;  
 }
 
 .most_popular_text p
 {
-    width: 60%;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
