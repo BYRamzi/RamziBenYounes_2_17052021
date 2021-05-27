@@ -28,13 +28,26 @@ section
     padding-top: 10px;
 }
 
-.accomodation_description
+.accomodation_description 
 {
-    width: 30%;
-    height: 40%;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px #CDCAD1;
+    transition-duration: 500ms;
+}
+
+.accomodation_box
+{
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    height: 40%;
+}
+
+.accomodation_description:hover
+{
+    transform: scale(1.04);
 }
 
 .accomodation_description img
