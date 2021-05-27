@@ -1,0 +1,152 @@
+section
+{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+#accomodations_results
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+}
+
+#accomodations_list
+{
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.accomodation_description
+{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #CDCAD1;
+}
+
+.accomodation_description img
+{
+    width: 97%;
+    height: 60%;
+    margin: 1.5%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;  
+}
+
+.textdescription
+
+{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textdescription h2
+{
+    margin: 0px 0px 2px 0px;
+}
+
+.textdescription p
+{
+    margin: 0px;
+    
+}
+
+.stars
+{
+    margin: 0px;
+}
+
+.stars i
+{
+    font-size: 10px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+h2
+{
+    margin: 0px;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+}
+
+aside h1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas fa-chart-line
+{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+#most_popular_list
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.most_popular_description
+{
+    display: flex;
+    width: 90%;
+    height: 28%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #CDCAD1;
+}
+
+.most_popular_description img
+{
+    width: 35%;
+    height: 95%;
+    margin: 1.5%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;  
+}
+
+.most_popular_text p
+{
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
