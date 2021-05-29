@@ -2,33 +2,148 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-    <title>Reservia</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<title>Reservia</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
 
 <body>
-	<div id="bloc_page">
+	<div id="page_block">
+
+		<!--HEADER-->
+
 		<header>
-			<div id="titre_principal">
-				<img src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
-				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-				<h2>En plein centre ville ou en pleine nature</h2>
+			<div id="page_header">
+				<div id="logo">
+					<img src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
+				</div>
+
+				<nav>
+					<ul>
+						<li><a href="#hebergements">Hébergements</a></li>
+						<li><a href="#activites">Activités</a></li>
+						<li><a href="#"><strong>S'inscrire</strong></a></li>
+					</ul>
+				</nav>
 			</div>
 
-			<nav>
+			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+			<p>En plein centre ville ou en pleine nature</p>
+
+
+			<!--Barre de recherche-->
+
+
+			<div id="search">
+				<span class="mapmarker"><i class="fas fa-map-marker-alt"></i></span>
+				<input class="searchfield" type="search" name="recherche" value="Marseille, France">
+				<input class="searchbutton" type="submit" name="recherchez" value="Rechercher">
+			</div>
+
+
+			<!--Filtres-->
+
+
+			<div id="filter">
+				<h2>Filtres</h2>
 				<ul>
-					<li><a href="#hebergements">Hébergements</a></li>
-					<li><a href="#activites">Activités</a></li>
-					<li><a href="#">S'inscrire</a></li>
-				</ul>
-			</nav>
-
-			<div id="barre_recherche">
-				<i class="fas fa-map-marker-alt"></i>
-				<input class="bouton_recherche" type="search" name="recherche" value="Marseille, France">
-				<input class="bouton_recherche2" type="submit" name="recherchez" value="Rechercher">
+					<a href="#"><li><span class="iconfilter"><i class="fas fa-money-bill-wave-alt"></i></span>Économique</li></a>
+					<a href="#"><li><span class="iconfilter"><i class="fas fa-child"></i></span>Familial</li></a>
+					<a href="#"><li><span class="iconfilter"><i class="fas fa-heart"></i></span>Romantique</li></a>
+					<a href="#"><li><span class="iconfilter"><i class="fas fa-dog"></i></span>Animaux autorisés</li></a>
+				</ul>	
 			</div>
+
+
+			<!--Information-->
+
+
+			<p><span class="iconinfo"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville
+			</p>
+			
+		<!--SECTION 1-->
+
+		<section>
+			<h1>Hébergements à Marseille</h1>
+			<div id="accomodations_list">
+				<div class="accomodation_description">
+					<img src="images/accomodations/auberge_la_cannebiere.jpg" alt="auberge la cannebiere" /> 
+					<h2>Auberge la Cannebière</h2>
+					<p>Nuit à partir de <strong>25€</strong></p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#f2f2f2"></i>
+					</div>
+				</div>
+				<div class="accomodation_description">
+					<img src="images/accomodations/hotel_du_port.jpg" alt="hotel du port" /> 
+					<h2>Hôtel du port</h2>
+					<p>Nuit à partir de 52€</p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+					</div>
+				</div>
+				<div class="accomodation_description">
+					<img src="images/accomodations/hotel_les_mouettes.jpg" alt="hotel les mouettes" /> 
+					<h2>Hôtel Les mouettes</h2>
+					<p>Nuit à partir de 75€</p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#f2f2f2"></i>
+					</div>
+				</div>
+				<div class="accomodation_description">
+					<img src="images/accomodations/hotel_de_la_mer.jpg" alt="hotel de la mer" /> 
+					<h2>Hôtel de la mer</h2>
+					<p>Nuit à partir de 46€</p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#f2f2f2"></i>
+						<i class="fas fa-star" style="color:#f2f2f2"></i>
+					</div>
+				</div>
+				<div class="accomodation_description">
+					<img src="images/accomodations/auberge_le_panier.jpg" alt="auberge le panier" /> 
+					<h2>Auberge Le Panier</h2>
+					<p>Nuit à partir de 23€</p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#f2f2f2"></i>
+					</div>
+				</div>
+				<div class="accomodation_description">
+					<img src="images/accomodations/hotel_chez_amina.jpg" alt="hotel chez amina" /> 
+					<h2>Hôtel chez Amina</h2>
+					<p>Nuit à partir de 96€</p>
+					<div class="stars">
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+						<i class="fas fa-star" style="color:#0065FC"></i>
+					</div>
+				</div>
+
+			</div>
+		</section>
 
 		</header>
 	</div>

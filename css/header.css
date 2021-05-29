@@ -1,0 +1,141 @@
+#page_header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#logo img
+{
+    width: 70px;
+    height: 32px;
+    padding-bottom: 3px;
+}
+
+/* Barre de recherche */
+
+#search
+{
+	display: flex;
+}
+
+.mapmarker
+{
+	display: inline-block;
+	background-color: #f2f2f2;
+	border-radius: 1em 0em 0em 1em;
+}
+
+.mapmarker i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 15px;
+	height: 35px;
+	width: 35px;
+}
+
+.searchfield
+{
+	display: inline-block;
+	border: 1px solid #F2F2F2;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	font-family: 'Raleway';
+	font-weight: bold;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+.searchbutton
+{
+	display: inline-block;
+	border: none;
+	color: white;
+	font-family: 'Raleway';
+	font-weight: bold;
+	background-color: #0065FC;
+	border-radius: 0em 1em 1em 0em;
+	cursor: pointer;
+}
+
+/* Filtres */
+
+#filter
+{
+	display: flex;
+	align-items: center;
+}
+
+#filter ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+#filter li
+{
+	margin-right: 30px;
+	font-family: 'Raleway';
+	font-weight: bold;
+	font-size : 12px;
+	border: 1px solid #F2F2F2;
+	border-radius: 50px 50px 50px 50px;
+	padding: 0px 12px 0px 0px;
+}
+
+li:hover
+{
+	background-color: #0065FC;
+	color: white;
+}
+
+ul a
+{
+	color: black;
+	text-decoration: none;
+} 
+
+.iconfilter
+{
+	display: inline-block;
+	background-color: #DEEBFF;
+	border-radius: 50px 50px 50px 50px;
+	margin-right: 8px;
+}
+
+.iconfilter i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 15px;
+	height: 35px;
+	width: 35px;
+	color: #0065FC; 
+}
+
+/* Information */
+
+.iconinfo
+{
+	display: inline-block;
+	background-color: white;
+	border-radius: 50px 50px 50px 50px;
+	border: 1px solid grey;
+	margin-right: 8px;
+	height: 20px;
+	width: 20px;
+}
+
+.iconinfo i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 12px;
+	height: 20px;
+	width: 20px;
+	color: #0065FC;
+}
