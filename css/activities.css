@@ -1,0 +1,35 @@
+#activities_list
+{
+    display: flex;
+}
+
+figure 
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 0.5px #f2f2f2 solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #CDCAD1;
+}
+
+figure img 
+{
+    max-width: 220px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20Px 0px 0px;
+}
+
+figcaption 
+{
+    font-weight: bold;
+	font-size: 12px;
+    padding: 3px;
+    text-align: left;
+}
+
+.portrait_description img
+{
+
+}
