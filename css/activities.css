@@ -1,13 +1,15 @@
 #activities_list
 {
     display: flex;
+    height: 350px;
+    justify-content: space-between;
 }
 
 figure 
 {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0;
     border: 0.5px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 2px 2px 12px #CDCAD1;
@@ -15,8 +17,6 @@ figure
 
 figure img 
 {
-    max-width: 220px;
-    max-height: 150px;
     object-fit: cover;
     border-radius: 20px 20Px 0px 0px;
 }
@@ -26,10 +26,63 @@ figcaption
     font-weight: bold;
 	font-size: 12px;
     padding: 3px;
+    margin-left: 5px;
     text-align: left;
+    height: 20px;
+}
+
+.portrait_description
+{
+    height: 100%;
+    width: 22%;
 }
 
 .portrait_description img
 {
-
+    height: 90%;
 }
+
+.landscape_description
+{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#landscape_description1
+{
+    width: 100%;
+    height: 55%;
+}
+
+#landscape_description1 img
+{
+    height: 100%;
+    
+}
+
+#landscape_description2
+{
+    width: 100%;
+    height: 35%;
+}
+
+#landscape_description2 img
+{
+    height: 100%;
+  
+}
+
+#landscape_description3
+{
+    width: 100%;
+    height: 45%;
+}
+
+#landscape_description3 img
+{
+    height: 100%;
+    object-position: top;
+}
+
