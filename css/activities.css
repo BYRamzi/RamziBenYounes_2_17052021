@@ -1,0 +1,128 @@
+#activities
+{
+    margin-top: 4%;
+    height: 20%;
+}
+#activities_list
+{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#activities_list a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#activities_list a:hover
+{
+    transform: scale(1.04);
+    transition-duration: 500ms;
+}
+
+figure
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0.5px #f2f2f2 solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #CDCAD1;
+}
+
+figure img 
+{
+    object-fit: cover;
+    border-radius: 20px 20Px 0px 0px;
+}
+
+figcaption 
+{
+    font-weight: bold;
+	font-size: 12px;
+    padding: 3px;
+    margin-left: 7px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.portrait_box 
+{
+    height: 100%;
+    width: 22%;
+}
+
+.portrait_description
+{
+    height: 100%;
+    width: 100%;
+}
+
+.portrait_description img
+{
+    height: 110%;
+}
+
+.landscape_description
+{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#landscape_box1
+{
+    width: 100%;
+    height: 55%;
+}
+
+#landscape_description1
+{
+    width: 100%;
+    height: 100%;
+}
+
+#landscape_description1 img
+{
+    height: 90%;
+}
+
+#landscape_box2
+{
+    width: 100%;
+    height: 35%;
+}
+
+#landscape_description2
+{
+    width: 100%;
+    height: 100%;
+}
+
+#landscape_description2 img
+{
+    height: 90%;
+}
+
+.landscape_box3
+{
+    width: 100%;
+    height: 45%;
+}
+.landscape_description3
+{
+    width: 100%;
+    height: 100%;
+}
+
+.landscape_description3 img
+{
+    height: 90%;
+    object-position: top;
+}
+
+
