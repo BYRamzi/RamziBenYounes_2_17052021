@@ -12,6 +12,13 @@ h1
 	font-weight: bold;
 }
 
+@media screen and (max-width: 768px)
+{
+	h1
+	{
+		font-size: 22px;
+	}
+}
 header h2, section h2
 {
 	font-weight: bold;
@@ -22,6 +29,15 @@ h3
 {
 	font-weight: bold;
 	font-size: 14px;	
+}
+
+@media screen and (max-width: 768px)
+{
+	h3
+	{
+		margin-top: 35px;
+		font-size: 18px;	
+	}
 }
 
 h4
@@ -66,6 +82,14 @@ p
 {
 	font-size: 12px;
 	font-weight: normal;
+}
+
+@media screen and (max-width: 768px)
+{
+	p
+	{
+		font-size: 16px;
+	}
 }
 
 #page_block
