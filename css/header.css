@@ -4,14 +4,6 @@ header
 	width: 100%;
 }
 
-@media screen and (max-width: 768px)
-{
-	header
-	{
-		height: 100%;
-	}
-}
-
 #page_header
 {
 	display: flex;
@@ -33,29 +25,11 @@ header
 	display: flex;
 }
 
-@media screen and (max-width: 768px)
-{
-	#search
-	{
-		justify-content: center;
-		margin-top: 35px;
-		height: 45px;
-	}
-}
-
 .mapmarker
 {
 	display: inline-block;
 	background-color: #f2f2f2;
 	border-radius: 1em 0em 0em 1em;
-}
-
-@media screen and (max-width: 768px)
-{
-	.mapmarker
-	{
-		width: 20%;
-	}
 }
 
 .mapmarker i
@@ -66,16 +40,6 @@ header
 	font-size: 15px;
 	height: 35px;
 	width: 35px;
-}
-
-@media screen and (max-width: 768px)
-{
-	.mapmarker i
-	{	
-		font-size: 20px;
-		height: 100%;
-		width: 100%;
-	}
 }
 
 .searchfield
@@ -90,15 +54,6 @@ header
 	border-left-style: none;
 }
 
-@media screen and (max-width: 768px)
-{
-	.searchfield
-	{
-		width: 60%;
-		font-size: 16px;
-	}
-}
-
 .searchbutton
 {
 	display: inline-block;
@@ -111,15 +66,6 @@ header
 	cursor: pointer;
 }
 
-@media screen and (max-width: 768px)
-{
-	.searchbutton
-	{
-		color:#0065FC;
-		width: 20%;
-	}
-}
-
 /* Filtres */
 
 #filter
@@ -128,28 +74,10 @@ header
 	align-items: center;
 }
 
-@media screen and (max-width: 768px)
-{
-	#filter
-	{
-		flex-direction: column;
-		align-items: flex-start;
-	}
-}
-
 #filter ul
 {
 	list-style-type: none;
 	display: flex;
-}
-
-@media screen and (max-width: 768px)
-{
-	#filter ul
-	{
-		flex-wrap: wrap;
-		padding: 0;
-	}
 }
 
 #filter li
@@ -161,16 +89,6 @@ header
 	border: 1px solid #F2F2F2;
 	border-radius: 50px 50px 50px 50px;
 	padding: 0px 12px 0px 0px;
-}
-
-@media screen and (max-width: 768px)
-{
-	#filter li
-	{
-		margin: 0px 6px 7px 0px;
-		font-size : 16px;
-		padding: 0px 16px 0px 0px;
-	}
 }
 
 li:hover
@@ -203,16 +121,6 @@ ul a
 	color: #0065FC; 
 }
 
-@media screen and (max-width: 768px)
-{
-	.iconfilter i
-	{	
-		font-size: 20px;
-		height: 50px;
-		width: 50px; 
-	}
-}
-
 /* Information */
 
 .iconinfo
@@ -235,4 +143,73 @@ ul a
 	height: 20px;
 	width: 20px;
 	color: #0065FC;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px)
+{
+	header
+	{
+		height: 100%;
+		width: 90%;
+		margin: auto;
+	}
+
+	#search
+	{
+		justify-content: center;
+		margin-top: 35px;
+		height: 45px;
+	}
+
+	.mapmarker
+	{
+		width: 20%;
+	}
+
+	.mapmarker i
+	{	
+		font-size: 20px;
+		height: 100%;
+		width: 100%;
+	}
+
+	.searchfield
+	{
+		width: 60%;
+		font-size: 16px;
+	}
+
+	.searchbutton
+	{
+		color:#0065FC;
+		width: 20%;
+	}
+
+	#filter
+	{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	#filter ul
+	{
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	#filter li
+	{
+		margin: 0px 6px 7px 0px;
+		font-size : 16px;
+		padding: 0px 16px 0px 0px;
+	}
+
+	.iconfilter i
+	{	
+		font-size: 20px;
+		height: 50px;
+		width: 50px; 
+	}
 }
