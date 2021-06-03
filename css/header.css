@@ -145,6 +145,11 @@ ul a
 	color: #0065FC;
 }
 
+#info
+{
+	display: flex;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px)
@@ -165,7 +170,7 @@ ul a
 
 	.mapmarker
 	{
-		width: 20%;
+		width: 15%;
 	}
 
 	.mapmarker i
@@ -177,14 +182,15 @@ ul a
 
 	.searchfield
 	{
-		width: 60%;
+		width: 70%;
 		font-size: 16px;
 	}
 
 	.searchbutton
 	{
 		color:#0065FC;
-		width: 20%;
+		width: 15%;
+		border-radius: 1em 1em 1em 1em;
 	}
 
 	#filter

@@ -205,6 +205,7 @@ h4
     .most_popular_box
     {
         height: 150px;
+        margin-bottom: 10px;
     }
 
     .most_popular_box img, .most_popular_text
