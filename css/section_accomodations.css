@@ -201,6 +201,16 @@ h4
         width: 90%;
         margin: auto;
     }
+
+    .most_popular_box
+    {
+        height: 150px;
+    }
+
+    .most_popular_box img, .most_popular_text
+    {
+        width: 100%;
+    }
     
     
 }
