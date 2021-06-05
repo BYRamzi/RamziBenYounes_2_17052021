@@ -4,6 +4,8 @@ body
 {
 	font-family: 'Raleway', sans-serif;
 	color: black;
+	width: 100%;
+	margin: 0;
 }
 
 h1
@@ -30,36 +32,49 @@ h4
 	font-size: 12px;
 }
 
-nav ul
+nav
+{
+	display: flex;
+}
+
+#nav_list
 {
 	list-style-type: none;
 	display: flex;
+	margin: 0;
 }
 
 nav li
 {
-	margin-right: 60px;
+	width: 140px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
 }
 
 nav a
 {
-	font-size: 12px;
-	color: black;
-	text-decoration: none;
-	padding-bottom: 3px;
+	position: relative;
+	top: 5px;
 }
 
-strong 
-{
-	color: #0065FC;
-}
 
-nav a:hover
+#nav_list li:hover
 {
 	color: #0065FC;
-	border-top: 1px solid #0065FC;
-	padding-top: 20px;
+	border-top: 3px solid #0065FC;
+	padding-top: 40px;
 	background-color: white;
+}
+
+#nav_list a:hover
+{
+	color: #0065FC;
+}
+
+strong
+{
+	color: #0065FC;
 }
 
 p
@@ -92,6 +107,7 @@ p
 	h1
 	{
 		font-size: 22px;
+		margin: 20px 20px 10px 20px
 	}
 
 	section h2
@@ -113,9 +129,78 @@ p
 		font-size: 16px;
 	}
 
+	header p 
+	{
+		margin: 0px 20px 35px 20px;
+	}
+
 	h4
 	{
 		font-weight: bold;
 		font-size: 16px;
 	}
+
+	nav
+	{
+		width: 100%;
+	}
+
+	#nav_list
+	{
+		width: 100%;
+		padding-left: 0;
+	}
+
+	#nav_list li
+	{
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 300%;
+	}
+
+	#nav_list li:visited
+	{
+		border-bottom: solid 3px #0065FC;
+	}
+
+	#nav_list a
+	{
+		position: relative;
+	}
+
+	#nav_list li:nth-child(3)
+	{
+		position: relative;
+		top: -60px;
+		left: -50px;
+		border-bottom: none;
+		width: 0%;
+	}
+
+	#nav_list li:nth-child(1)
+	{
+		border-bottom: 3px solid #0065FC;
+	}
+
+	#nav_list li:nth-child(1) a
+	{
+		color: #0065FC;
+	}
+
+	#nav_list li:nth-child(2)
+	{
+		border-bottom: 3px solid #f2f2f2;
+	}
+
+	
+
+	
+
+
+
+
+
+
+
+
 }
