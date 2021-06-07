@@ -191,12 +191,12 @@ figcaption
         margin-bottom: 15px;
     }
 
-    .portrait_description img, #landscape_description2 img, #landscape_description3 img, #landscape_description4 img 
+    .portrait_description img, #landscape_description1 img, #landscape_description2 img, #landscape_description3 img, #landscape_description4 img 
     {
         height: 80%;
     }
 
-    .portrait_description figcaption, #landscape_description2 figcaption, #landscape_description3 figcaption, #landscape_description4 figcaption
+    .portrait_description figcaption, #landscape_description1 figcaption, #landscape_description2 figcaption, #landscape_description3 figcaption, #landscape_description4 figcaption
     {
         font-size: 14px;
         height: 20%;
