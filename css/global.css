@@ -10,8 +10,16 @@ body
 
 h1
 {
-	font-size: 16px;
-	font-weight: bold;
+	display: flex;
+	margin: 0;
+	padding-top: 30px;
+}
+
+p
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 5px;
 }
 
 header h2, section h2
@@ -50,6 +58,7 @@ nav li
 	padding-top: 40px;
 	display: flex;
 	justify-content: center;
+	font-size: 12px;
 }
 
 nav a
@@ -77,12 +86,6 @@ strong
 	color: #0065FC;
 }
 
-p
-{
-	font-size: 12px;
-	font-weight: normal;
-}
-
 #page_block
 {
 	width: 90%;
@@ -104,7 +107,7 @@ p
 		margin: 0;
 	}
 
-	h1
+	header h2
 	{
 		font-size: 22px;
 		margin: 20px 20px 10px 20px
@@ -153,14 +156,10 @@ p
 
 	#nav_list li
 	{
+		font-size: 16px;
 		padding-top: 20px;
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 		width: 300%;
-	}
-
-	#nav_list li:visited
-	{
-		border-bottom: solid 3px #0065FC;
 	}
 
 	#nav_list a
