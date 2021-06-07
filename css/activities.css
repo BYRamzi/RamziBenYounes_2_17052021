@@ -1,5 +1,7 @@
 #activities
 {
+    display: flex; 
+    flex-direction: column;
     margin-top: 3%;
 }
 #activities_list
@@ -14,6 +16,9 @@
 {
     text-decoration: none;
     color: black;
+    border: 0.5px #f2f2f2 solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #CDCAD1;
 }
 
 #activities_list a:hover
@@ -27,9 +32,6 @@ figure
     display: flex;
     flex-direction: column;
     margin: 0;
-    border: 0.5px #f2f2f2 solid;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px #CDCAD1;
 }
 
 figure img 
@@ -43,9 +45,9 @@ figcaption
     font-weight: bold;
 	font-size: 12px;
     padding: 3px;
-    margin-left: 7px;
-    height: 30px;
-    line-height: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .portrait_box 
@@ -62,7 +64,12 @@ figcaption
 
 .portrait_description img
 {
-    height: 110%;
+    height: 90%;
+}
+
+.portrait_description figcaption
+{
+    height: 10%;
 }
 
 .landscape_description
@@ -87,7 +94,12 @@ figcaption
 
 #landscape_description1 img
 {
-    height: 90%;
+    height: 82%;
+}
+
+#landscape_description1 figcaption
+{
+    height: 18%;
 }
 
 #landscape_box2
@@ -104,7 +116,12 @@ figcaption
 
 #landscape_description2 img
 {
-    height: 90%;
+    height: 72%;
+}
+
+#landscape_description2 figcaption
+{
+    height: 28%;
 }
 
 .landscape_box3
@@ -119,9 +136,18 @@ figcaption
     height: 100%;
 }
 
-.landscape_box3 img
+#landscape_description3 img, #landscape_description4 img 
 {
-    height: 90%;
+    height: 78%;
+}
+
+#landscape_description3 figcaption, #landscape_description4 figcaption
+{
+    height: 22%;
+}
+
+#landscape_description3 img
+{
     object-position: top;
 }
 
@@ -136,7 +162,7 @@ figcaption
     {
         width: 90%;
         margin: auto;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     #activities_list
@@ -165,10 +191,15 @@ figcaption
         margin-bottom: 15px;
     }
 
-    figcaption 
+    .portrait_description img, #landscape_description2 img, #landscape_description3 img, #landscape_description4 img 
+    {
+        height: 80%;
+    }
+
+    .portrait_description figcaption, #landscape_description2 figcaption, #landscape_description3 figcaption, #landscape_description4 figcaption
     {
         font-size: 14px;
-        padding: 5px;
+        height: 20%;
     }
 
     #landscape_description4 img
