@@ -40,7 +40,6 @@ header
 	align-items: center;	
 	font-size: 14px;
 	height: 100%;
-	width: 100%;
 }
 
 .searchfield
@@ -59,7 +58,6 @@ header
 
 .searchbutton
 {
-	display: inline-block;
 	border: none;
 	color: white;
 	font-size: 12px;
@@ -69,8 +67,18 @@ header
 	border-radius: 0px 10px 10px 0px;
 	cursor: pointer;
 	width: 25%
-
 }
+
+.searchtext
+{
+	display: block;
+}
+
+.searchicon
+{
+	display: none;
+}
+
 
 /* Filtres */
 
@@ -200,8 +208,6 @@ ul a
 	.mapmarker i
 	{	
 		font-size: 20px;
-		height: 100%;
-		width: 100%;
 	}
 
 	.searchfield
@@ -209,22 +215,27 @@ ul a
 		width: 70%;
 		font-size: 16px;
 	}
-	.searchbutton[value="Rechercher"]
-	{
-		color:#0065FC;
-	}
-
+	
 	.searchbutton
 	{
 		width: 15%;
 		border-radius: 1em 1em 1em 1em;
-		background-image: url(images/search-solid.svg);
-		background-repeat: no-repeat;
 		background-size: 20px;
 		position: relative;
 		left: -5px;
-		background-position: 50px 50px;
 	}
+
+	.searchtext
+	{
+		display: none;
+	}
+
+	.searchicon
+	{
+		display: inline-block;
+		font-size: 20px;
+	}
+
 
 	#filter
 	{
