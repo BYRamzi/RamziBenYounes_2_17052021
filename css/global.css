@@ -190,16 +190,59 @@ strong
 	{
 		border-bottom: 3px solid #f2f2f2;
 	}
+}
 
-	
+@media screen and (min-width: 769px) and (max-width:1024px)
+{
+	#page_block
+	{
+		width: 100%;
+		margin: auto;
+	}
 
-	
+	header
+	{
+		margin-left:20px;
+	}
 
+	header h2
+	{
+		font-size: 22px;
+		margin: 20px 20px 10px 0px
+	}
 
+	section h2
+	{
+		width: 90%;
+		margin: auto;
+		font-size: 22px;
+	}
 
+	h3
+	{
+		margin-top: 35px;
+		margin-bottom: 0px;
+		font-size: 18px;	
+	}
 
+	p
+	{
+		font-size: 16px;
+	}
 
+	header p 
+	{
+		margin: 0px 20px 35px 0px;
+	}
 
+	h4
+	{
+		font-weight: bold;
+		font-size: 16px;
+	}
 
-
+	#nav_list li
+	{
+		font-size: 16px;
+	}
 }
