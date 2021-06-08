@@ -1,4 +1,4 @@
-/* Éléments principaux de la page */
+/* MAIN ELEMENTS */
 
 body
 {
@@ -92,9 +92,9 @@ strong
 	margin: auto;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES MOBILE */
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
 	body
 	{
@@ -192,7 +192,9 @@ strong
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px)
+/* MEDIA QUERIES TABLET */
+
+@media screen and (min-width: 768px) and (max-width:1024px)
 {
 	#page_block
 	{
