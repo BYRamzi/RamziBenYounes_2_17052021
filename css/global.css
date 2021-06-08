@@ -176,19 +176,28 @@ strong
 		width: 0%;
 	}
 
-	#nav_list li:nth-child(1)
-	{
-		border-bottom: 3px solid #0065FC;
-	}
-
-	#nav_list li:nth-child(1) a
+	#nav_list li:nth-child(1) a:hover
 	{
 		color: #0065FC;
 	}
 
-	#nav_list li:nth-child(2)
+	#nav_list li:nth-child(1), #nav_list li:nth-child(2)
 	{
 		border-bottom: 3px solid #f2f2f2;
+	}
+
+	#nav_list li:nth-child(1):hover, #nav_list li:nth-child(2):hover
+	{
+		color: #0065FC;
+		border-bottom: 3px solid #0065FC;
+		border-top: none;
+		padding-top: 20px;
+		background-color: white;
+	}
+	#nav_list li:nth-child(3):hover
+	{
+		border-top: none;
+		padding-top: 20px;
 	}
 }
 
